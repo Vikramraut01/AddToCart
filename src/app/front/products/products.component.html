@@ -1,0 +1,19 @@
+<div class="row" style="margin: 15px">
+  <div class="col-md-3" *ngFor="let pros of allPro | search : searchKey">
+    <mat-card class="card">
+      <mat-card-content>
+        <div class="product">
+          <img src="{{ pros.pro_img }}" />
+          <div class="card1">
+            <p id="title">{{ pros.pro_name }}</p>
+            <p>{{ pros.rs_tag }}</p>
+            <p>{{ pros.comp_name }}</p>
+            <button class="btn btn-primary" (click)="postdata(pros)">
+              Add-to-cart
+            </button>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

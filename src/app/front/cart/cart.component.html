@@ -1,0 +1,114 @@
+<header>
+  <div class="navbar navbar-dark bg-primary shadow-sm">
+    <div class="name_logo" routerLink="/nav">
+      <img
+        class="name"
+        src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+      />
+      <div class="ndown">
+        <a>Explore</a><span>Plus</span>
+        <img
+          class="nimg"
+          src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png"
+        />
+      </div>
+    </div>
+
+    <div class="search">
+      <input type="search" class="seach" />
+      <button>
+        <mat-icon>search</mat-icon>
+      </button>
+    </div>
+
+    <div class="log">
+      <a>Login</a>
+    </div>
+  </div>
+</header>
+
+<table mat-table [dataSource]="cartList" class="mat-elevation-z8 my-5">
+  <!--- Note that these columns can be defined in any order.
+        The actual rendered columns are set as a property on the row definition" -->
+
+  <!-- Position Column -->
+  <ng-container matColumnDef="i">
+    <th mat-header-cell *matHeaderCellDef>No.</th>
+    <td mat-cell *matCellDef="let element; let i = index">{{ i + 1 }}</td>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="pro_name">
+    <th mat-header-cell *matHeaderCellDef>Product Image</th>
+    <td mat-cell *matCellDef="let element">
+      <img src="{{ element.pro_img }}" />
+    </td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="pro_img">
+    <th mat-header-cell *matHeaderCellDef>Product Name</th>
+    <td mat-cell *matCellDef="let element">
+      <div>{{ element.pro_name }}</div>
+      <div id="bt">
+        <button (click)="reduceCartPro(element)">-</button>
+        <input type="number" value="{{ element.quantity }}" />
+        <button (click)="increaseCartPro(element)">+</button>
+      </div>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="comp_name">
+    <th mat-header-cell *matHeaderCellDef>Company Name</th>
+    <td mat-cell *matCellDef="let element">
+      {{ element.comp_name }}
+    </td>
+  </ng-container>
+  <ng-container matColumnDef="description">
+    <th mat-header-cell *matHeaderCellDef>Decription</th>
+    <td mat-cell *matCellDef="let element">{{ element.description }}</td>
+  </ng-container>
+  <ng-container matColumnDef="price">
+    <th mat-header-cell *matHeaderCellDef>Price</th>
+    <td mat-cell *matCellDef="let element">
+      ₹{{ element.price * element.quantity }}
+    </td>
+  </ng-container>
+  <ng-container matColumnDef="action">
+    <th mat-header-cell *matHeaderCellDef>Action</th>
+    <td mat-cell *matCellDef="let element">
+      <button class="btn btn-danger" (click)="deleteCartPro(element.id)">
+        Delet
+      </button>
+    </td>
+  </ng-container>
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr
+    class="rower"
+    mat-row
+    *matRowDef="let row; columns: displayedColumns"
+  ></tr>
+</table>
+
+<mat-card>
+  <mat-card-content>
+    <h1 class="k">Price Details</h1>
+    <div class="no p">
+      <h4>No of Items</h4>
+      <h3>{{ cartList.length }}</h3>
+    </div>
+    <div class="discount p">
+      <h4>Discount</h4>
+      <h3>{{ cartList[0].rs_tag }}</h3>
+    </div>
+    <div class="d_charges p">
+      <h4>Delevery Charges</h4>
+      <h3>0</h3>
+    </div>
+    <hr />
+    <div class="total p">
+      <h3>Total.</h3>
+      <h4>{{ getTotal() }}</h4>
+    </div>
+  </mat-card-content>
+</mat-card>

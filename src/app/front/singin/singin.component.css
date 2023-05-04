@@ -1,0 +1,14 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form button {
+  background-color: blue;
+  color: white;
+}
+mat-card {
+  background-color: rgb(169, 169, 250);
+  height: 100vh;
+}

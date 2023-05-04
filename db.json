@@ -1,0 +1,196 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "pro_img": "https://rukminim1.flixcart.com/image/200/200/l3khsi80/projector/z/h/4/-original-imagenqrzfcgwqk7.jpeg",
+      "pro_name": "Projectors",
+      "rs_tag": "20% off",
+      "comp_name": "ZEBRONICS",
+      "verity": "electronics",
+      "price": 9999,
+      "description": "ZEB-PixaPlay 12 is an LED projector with a built-in speaker that supports Dolby Audio. It can project screen up to 508cm size and has 1080p resolution support",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "pro_img": "https://rukminim1.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg",
+      "pro_name": "Top Mirrorless Cameras",
+      "rs_tag": "30% off",
+      "comp_name": "Canon, Sony, Fujifilm...",
+      "verity": "electronics",
+      "description": "Flex Your Stories.Lightweight and stylish, the EOS M50 Mark II is fun and easy to use with Wi-Fi connectivity for content creators to stay close to your audience at all times. ",
+      "price": 60470,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "pro_img": "https://rukminim1.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg",
+      "pro_name": "Printers",
+      "rs_tag": "40% off",
+      "comp_name": "HP",
+      "verity": "electronics",
+      "description": "Suitable for printing, scanning, and copying tasks, the HP DeskJet Ink Advantage Ultra 4826 Printer is an all-in-one device",
+      "price": 7999,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "pro_img": "https://rukminim1.flixcart.com/image/200/200/l4x2rgw0/monitor/n/y/y/q24i-20-full-hd-23-8-66eegac3in-lenovo-original-imagfpgxzsk8ef26.jpeg",
+      "pro_name": "Moniters",
+      "rs_tag": "60% off",
+      "comp_name": "Lenovo",
+      "verity": "electronics",
+      "description": "Lenovo Q24i-20 Monitor Where style meets substance. Slim, stylish, and superior performance - the Lenovo Q24i-20 Monitor is all you need and more. ",
+      "price": 12899,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "pro_img": "https://rukminim1.flixcart.com/image/832/832/kjvrdzk0/watch/f/e/z/ls2917-limestone-original-imafzcv7hhkztdmf.jpeg",
+      "pro_name": "MobilesCovers",
+      "rs_tag": "50% off",
+      "comp_name": "Limestone",
+      "verity": "electronics",
+      "description": "it has beautiful designed... its extra feature makes its more worthable such as its date and time",
+      "price": 271,
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "pro_img": "https://rukminim1.flixcart.com/image/200/200/krtjgcw0/headphone/1/i/y/au-mh601-maono-original-imag5j35zty3g6hq.jpeg",
+      "pro_name": "Studio Headphones",
+      "rs_tag": " 80% Off",
+      "comp_name": "SAMSON SR950",
+      "verity": "electronics",
+      "description": "Professional Studio Reference Headphones Wired without Mic Headset  (Black, On the Ear)",
+      "price": 4100,
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "pro_img": "https://rukminim1.flixcart.com/image/200/200/jxz0brk0/stuffed-toy/n/t/s/4-feet-pink-very-beautiful-best-quality-for-special-gift-125-13-original-imafgv92puzkdytg.jpeg",
+      "pro_name": "Soft Toys",
+      "rs_tag": "70% Off",
+      "comp_name": "Tedstree 3 feet pink teddy bear",
+      "verity": "beauty,toys or more",
+      "description": "Soft and Cuddly filling, Huggable and loveable for someone special, Teach your loved one the act of hugging with the help of these teddies",
+      "price": 289,
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "pro_img": "https://rukminim1.flixcart.com/image/200/200/jlph9jk0/cycle/h/f/k/skyper-26t-sskp26bk0001-16-hero-original-imaf8ru5xysfgtmx.jpeg",
+      "pro_name": "Non Geared Cycles",
+      "rs_tag": "40% Off",
+      "comp_name": "HERO Skyper 26T 26 T",
+      "verity": "twowheller",
+      "description": "Do you love adventure? If that's the case, this Hero Skyper cycle is meant for you. Featuring V brakes, this cycle is perfect for riding on the mountains.",
+      "price": 5229,
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "pro_img": "https://rukminim1.flixcart.com/image/416/416/xif0q/deodorant/5/y/q/600-sporting-club-rider-goal-victor-pack-of-3-3-deodorant-spray-original-imaggugr49pfgegc.jpeg",
+      "pro_name": "Deodrants & Perfumes",
+      "rs_tag": "60% Off",
+      "comp_name": "Denovor",
+      "verity": "beauty",
+      "description": "Denver Deodorant Body Spray For Men With A Carefully Blended Fragrance Mix And A Long Lasting Deo Protection Against Body Odors, To Keep You Delightfully Fresh And Confident Throughout The Day",
+      "price": 445,
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "pro_img": "https://rukminim1.flixcart.com/image/200/200/k6fd47k0/nut-dry-fruit/p/z/7/200-100-natural-california-pouch-happilo-original-imafzvw2tcazeur6.jpeg",
+      "pro_name": "Dry Fruits",
+      "rs_tag": "75% Off",
+      "comp_name": "Farmley Prasadam Lotus Seeds",
+      "verity": "grocery",
+      "description": "Makhana, also called fox nuts or lotus pops, are the niche product of India having an exquisite taste. They are extremely popular during fasting.",
+      "price": 165,
+      "quantity": 1
+    }
+  ],
+  "cart": [
+    {
+      "id": 2,
+      "pro_img": "https://rukminim1.flixcart.com/image/200/200/kokdci80/dslr-camera/v/e/x/z-24-200mm-z5-nikon-original-imag2zuekuxgxsgg.jpeg",
+      "pro_name": "Top Mirrorless Cameras",
+      "rs_tag": "30% off",
+      "comp_name": "Canon, Sony, Fujifilm...",
+      "verity": "electronics",
+      "description": "Flex Your Stories.Lightweight and stylish, the EOS M50 Mark II is fun and easy to use with Wi-Fi connectivity for content creators to stay close to your audience at all times. ",
+      "price": 60470,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "pro_img": "https://rukminim1.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg",
+      "pro_name": "Printers",
+      "rs_tag": "40% off",
+      "comp_name": "HP",
+      "verity": "electronics",
+      "description": "Suitable for printing, scanning, and copying tasks, the HP DeskJet Ink Advantage Ultra 4826 Printer is an all-in-one device",
+      "price": 7999,
+      "quantity": 1
+    }
+  ],
+  "user": [
+    {
+      "name": "sunil",
+      "mail": "s@gmail.com",
+      "phoneNo": 455,
+      "userName": "s",
+      "passWard": "s",
+      "id": 4
+    },
+    {
+      "name": "sunil",
+      "mail": "s@gmail.com",
+      "phoneNo": 455,
+      "userName": "s",
+      "passWard": "s",
+      "id": 5
+    },
+    {
+      "name": "SunilLengre",
+      "mail": "sunil@gmail.com",
+      "phoneNo": 59565656,
+      "userName": "sunil",
+      "passWard": "sunil",
+      "id": 6
+    },
+    {
+      "name": "Ganesh Saddar",
+      "mail": "ganesh1011@gmail.com",
+      "phoneNo": 7038112106,
+      "userName": "gani",
+      "passWard": "gani",
+      "id": 7
+    },
+    {
+      "name": "rahul thorat",
+      "mail": "rahul@gmail.com",
+      "phoneNo": 978852666,
+      "userName": "rahul",
+      "passWard": "rahul",
+      "id": 8
+    },
+    {
+      "name": "Amit Mali",
+      "mail": "amit@gmail.com",
+      "phoneNo": 884455,
+      "userName": "amit",
+      "passWard": "amit",
+      "id": 9
+    },
+    {
+      "name": "d",
+      "mail": "d",
+      "phoneNo": 6261,
+      "userName": "d",
+      "passWard": "d",
+      "id": 10
+    }
+  ]
+}

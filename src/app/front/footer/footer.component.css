@@ -1,0 +1,23 @@
+.row{
+    
+    color: white;
+    height: 50vh;
+    padding: 10px;
+}
+
+.fs{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 10px;
+ 
+    font-size: 12px;
+}
+.fc{
+    padding: 10px;
+}
+footer{
+    background-color: rgb(27, 22, 22);
+ 
+
+}

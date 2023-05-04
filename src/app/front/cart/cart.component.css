@@ -1,0 +1,126 @@
+header {
+  position: fixed;
+
+  top: 0%;
+  z-index: 1;
+  width: 100%;
+}
+.name {
+  width: 75px;
+}
+.nimg {
+  width: 10px;
+}
+.name_logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.ndown span {
+  color: gold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.seach {
+  display: flex;
+  justify-content: center;
+}
+.seach mat-icon {
+  position: fixed;
+  z-index: 1;
+}
+.log a {
+  padding: 5px 15px;
+  background-color: white;
+  color: #2874f0;
+}
+.become a span {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+.more a {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+.cart {
+  color: white;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search button {
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: white;
+  height: 36px;
+  align-items: center;
+}
+
+.search input {
+  border: none;
+  width: 400px;
+  height: 36px;
+}
+
+.search button mat-icon {
+  color: #2874f0;
+}
+
+.table {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+th {
+  align-items: center;
+  justify-content: center;
+}
+.mat-row {
+  height: 100px;
+}
+.rower {
+  height: 200px;
+}
+td img {
+  width: 20vh;
+  height: 20vh;
+}
+#bt{
+  display: flex;
+  gap: 5px;
+}
+#bt button{
+  width: 28px;
+    height: 28px;
+    background: linear-gradient(#fff,#f9f9f9);
+    display: inline-block;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50%;
+    padding-top: 1px;
+    line-height: 1;
+}
+#bt input{
+  width: 40px;
+  text-align: center;
+}
+.p{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.k{
+  margin-left: 300px;;
+}

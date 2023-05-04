@@ -1,0 +1,16 @@
+<div class="log">
+  <mat-card class="mat">
+    <mat-card-content class="cont">
+      <mat-form-field class="example-full-width">
+        <mat-label>User name</mat-label>
+        <input matInput #use/>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Pass name</mat-label>
+        <input matInput  #pass/>
+      </mat-form-field>
+      <button mat-button color="primary" (click)="logIn(use.value,pass.value)">LogIn</button>
+      <p>New ?<a routerLink="sign">SignUp</a></p>
+    </mat-card-content>
+  </mat-card>
+</div>
